@@ -19,6 +19,6 @@ jobs:
             . venv/bin/activate
             flake8 --statistics
             pylint src tests
-            bandit
-            mypy
+            bandit .
+            mypy .
             pytest -v --cov

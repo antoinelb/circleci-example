@@ -15,6 +15,7 @@ flake8 = "^3.6"
 mypy = "^0.641.0"
 pytest = "^4.0"
 pytest-cov = "^2.6"
+bandit = "^1.5"
 
 [tool.black]
 line_length = 79
